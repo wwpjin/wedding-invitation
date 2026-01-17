@@ -23,6 +23,7 @@ const processImages = async () => {
                 console.log(`Processing ${file}...`);
 
                 await sharp(inputPath)
+                    .rotate()
                     .resize({ width: MAX_WIDTH, withoutEnlargement: true })
                     .webp({ quality: QUALITY })
                     .toFile(outputPath);

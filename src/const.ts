@@ -16,8 +16,9 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
 // 예: 예식일 8월 -> 8월 15일 광복절
 export const HOLIDAYS = [15]
 
-export const LOCATION = "모든날, Wedding"
-export const LOCATION_ADDRESS = "충청북도 청주시 서원구 남이면 대림로 171-1 모든날웨딩"
+export const LOCATION = "모든 날, Wedding"
+export const LOCATION_ADDRESS = "충청북도 청주시 남이면 석판리 379-4번지"
+export const LOCATION_TEL = "010-9597-2215"
 
 // 카카오톡 공유 시 위치 정보로 사용할 주소.
 // LOCATION 과 동일하게 설정해도 무방하나, 필요에 따라 좀 더 상세히 작성 가능.
