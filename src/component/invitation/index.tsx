@@ -39,7 +39,7 @@ export const Invitation = () => {
       <div className="break" />
 
       <div className="name">
-        {GROOM_FATHER} · {GROOM_MOTHER}
+        {GROOM_MOTHER}
         <span className="relation">
           의 <span className="relation-name">{GROOM_TITLE}</span>
         </span>{" "}
