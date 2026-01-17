@@ -129,8 +129,8 @@ const NaverMap = () => {
                 if (kakao)
                   kakao.Navi.start({
                     name: LOCATION,
-                    x: WEDDING_HALL_POSITION[1],
-                    y: WEDDING_HALL_POSITION[0],
+                    x: WEDDING_HALL_POSITION[0],
+                    y: WEDDING_HALL_POSITION[1],
                     coordType: "wgs84",
                   })
                 break
@@ -152,8 +152,8 @@ const NaverMap = () => {
               case "ios":
               case "android": {
                 const params = new URLSearchParams({
-                  goalx: WEDDING_HALL_POSITION[1].toString(),
-                  goaly: WEDDING_HALL_POSITION[0].toString(),
+                  goalx: WEDDING_HALL_POSITION[0].toString(),
+                  goaly: WEDDING_HALL_POSITION[1].toString(),
                   goalName: LOCATION,
                 })
                 window.open(`tmap://route?${params.toString()}`, "_self")
