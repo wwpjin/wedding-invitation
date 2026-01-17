@@ -10,7 +10,7 @@ export const Information1 = () => {
     <>
       <h2 className="english">Information</h2>
       <div className="info-card">
-        <div className="label">예식 및 식사 안내</div>
+        <div className="label">예식 안내</div>
         <div className="content">
           11:00 하객 입장 및 식사 시작
           <br />
