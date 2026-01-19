@@ -38,7 +38,7 @@ export const GuestBook = () => {
     if (SERVER_URL) {
       try {
         const res = await fetch(
-          `${SERVER_URL}/guestbook?offset=${0}&limit=${6}`,
+          `${SERVER_URL}/guestbook?offset=${0}&limit=${5}`,
         )
         if (res.ok) {
           const data = await res.json()
@@ -49,7 +49,7 @@ export const GuestBook = () => {
         console.error("Error loading posts:", error)
       }
     } else {
-      setPosts(offlineGuestBook.slice(0, 6))
+      setPosts(offlineGuestBook.slice(0, 5))
     }
   }
 
