@@ -28,18 +28,6 @@ export const ShareButton = () => {
             objectType: "location",
             address: SHARE_ADDRESS,
             addressTitle: SHARE_ADDRESS_TITLE,
-            link: {
-              mobileWebUrl:
-                window.location.protocol +
-                "//" +
-                window.location.host +
-                baseUrl,
-              webUrl:
-                window.location.protocol +
-                "//" +
-                window.location.host +
-                baseUrl,
-            },
             content: {
               title: `${GROOM_FULLNAME} ❤️ ${BRIDE_FULLNAME}의 결혼식에 초대합니다.`,
               description:
