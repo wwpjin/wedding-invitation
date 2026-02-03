@@ -33,11 +33,9 @@ export const ShareButton = () => {
               description:
                 WEDDING_DATE.format(WEDDING_DATE_FORMAT) + "\n" + LOCATION,
               imageUrl:
-                window.location.protocol +
-                "//" +
-                window.location.host +
+                window.location.origin +
                 baseUrl +
-                "/preview_image.png",
+                "/preview_image.webp",
               link: {
                 mobileWebUrl:
                   window.location.protocol +
