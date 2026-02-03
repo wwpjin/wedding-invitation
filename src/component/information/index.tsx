@@ -14,7 +14,6 @@ export const Information1 = () => {
         <div className="content">
           11:00 ~ 14:00
           <br />
-          <br />
           단독홀에서 식사를 하시며
           <br />
           예식을 편안하게 즐기실 수 있습니다.
